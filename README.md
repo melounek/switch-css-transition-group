@@ -4,13 +4,19 @@ Combination of `ReactCSSTransitionGroup` and `Switch` for triggering transitions
 
 ## Install
 
-```
+```bash
 npm i --save switch-css-transition-group
 ```
 
+## Demo
+
+[storybook online](https://melounek.github.io/switch-css-transition-group)
+
+or locally you can try `npm run storybook`
+
 ## Usage
 
-```
+```js
 import SwitchCSSTransitionGroup from 'switch-css-transition-group'
 
 // your code
@@ -28,3 +34,6 @@ import SwitchCSSTransitionGroup from 'switch-css-transition-group'
 Similar like if you are using `ReactCSSTransitionGroup` and `Switch` there are available properties:
  - `location` - your history.location object from `react-router`
  - `transition*` - params from [ReactCSSTransitionGroup](https://facebook.github.io/react/docs/animation.html)
+
+On this [ReactCSSTransitionGroup](https://facebook.github.io/react/docs/animation.html) docs page
+you will also find how to deal with CSS and how customize more the transitions.
