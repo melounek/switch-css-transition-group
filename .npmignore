@@ -1,3 +1,4 @@
 /node_modules/
 .babelrc
 .storybook/build
+/src/

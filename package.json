@@ -1,11 +1,11 @@
 {
   "name": "switch-css-transition-group",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Combination of ReactCSSTransitionGroup and Switch for triggering transition between child routes.",
   "main": "lib/index.js",
   "scripts": {
-    "start": "babel --plugins transform-react-jsx -s inline -d lib -w src",
-    "build": "babel --plugins transform-react-jsx -s inline -d lib src",
+    "start": "NODE_ENV=development babel --plugins transform-react-jsx -s inline -d lib -w src",
+    "build": "babel -s inline -d lib src",
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006 -c .storybook",
@@ -29,6 +29,7 @@
     "babel-cli": "^6.24.1",
     "babel-plugin-transform-react-jsx": "^6.24",
     "babel-preset-env": "^1.6",
+    "babel-preset-react-app": "^3.0.1",
     "storybook-router": "^0.2"
   },
   "dependencies": {
