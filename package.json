@@ -1,6 +1,6 @@
 {
   "name": "switch-css-transition-group",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Combination of ReactCSSTransitionGroup and Switch for triggering transition between child routes.",
   "main": "lib/index.js",
   "scripts": {
