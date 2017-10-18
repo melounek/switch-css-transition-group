@@ -1,3 +1,5 @@
 /node_modules/
 /lib/
 .storybook/build
+/HTML5Application/nbproject/private/
+/nbproject/private/
