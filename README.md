@@ -2,6 +2,8 @@
 
 Combination of `ReactCSSTransitionGroup` and `Switch` for triggering transitions between routes.
 
+There is no `key` param because it is changing automatically based on matching routes.
+
 ## Install
 
 ```bash
