@@ -9,7 +9,7 @@ class SwitchCSSTransitionGroup extends Component {
     let switchKey = undefined
     React.Children.forEach(this.props.children,
       (child) => {
-        if(matchPath(this.props.location.pathname,child.props) && switchKey === undefined){
+        if(child !== null && matchPath(this.props.location.pathname,child.props) && switchKey === undefined){
           switchKey = child.props.path
         }
       }
