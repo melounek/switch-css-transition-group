@@ -1,6 +1,6 @@
 {
   "name": "switch-css-transition-group",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "Combination of ReactCSSTransitionGroup and Switch for triggering transition between child routes.",
   "main": "lib/index.js",
   "scripts": {
@@ -31,17 +31,17 @@
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-react-jsx": "^6.24",
     "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
     "babel-preset-react-app": "^3.0.3",
-    "storybook-router": "^0.3.1"
+    "babel-preset-stage-2": "^6.24.1",
+    "storybook-router": "^0.3.1",
+    "webpack": "^4.3.0"
   },
   "dependencies": {
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "react": "^16.0.0",
-    "react-addons-css-transition-group": "^15.6.2",
-    "react-dom": "^16.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "webpack": "^3.8.1"
+    "react-transition-group": "^1.2.1"
   }
 }

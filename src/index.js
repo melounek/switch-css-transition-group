@@ -1,7 +1,7 @@
 //@flow
 import React, { Component } from 'react'
 import { Switch, matchPath } from 'react-router-dom'
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
+import { CSSTransitionGroup } from 'react-transition-group'
 import PropTypes from 'prop-types'
 
 class SwitchCSSTransitionGroup extends Component {
@@ -21,11 +21,11 @@ class SwitchCSSTransitionGroup extends Component {
       }
     }
     return (
-      <ReactCSSTransitionGroup {...transProps}>
+      <CSSTransitionGroup {...transProps}>
         <Switch key={switchKey} location={this.props.location}>
           {this.props.children}
         </Switch>
-      </ReactCSSTransitionGroup>
+      </CSSTransitionGroup>
     )
   }
 }
